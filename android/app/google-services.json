@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265507718538",
+    "firebase_url": "https://chat-6c30f-default-rtdb.firebaseio.com",
+    "project_id": "chat-6c30f",
+    "storage_bucket": "chat-6c30f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265507718538:android:5f73a49c4d73426fe9b473",
+        "android_client_info": {
+          "package_name": "com.OkelloSoftwarez.communication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265507718538-3hbt3c5l3e653aar1nfm8um6ogknerfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd-3Hp3Hz6ZLYBP9ngikfH_M7QV1NjHNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265507718538-3hbt3c5l3e653aar1nfm8um6ogknerfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
