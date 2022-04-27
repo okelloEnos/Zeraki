@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 Widget customTextField({required IconData firstIcon,
     required TextEditingController controller, required String text,
-  required bool showSuffix, required Color color, required bool hideText
+  required bool showSuffix, required Color color, required bool hideText, required VoidCallback updateVisibility
 
     }) => Padding(padding: const EdgeInsets.only(left: 0, right: 0),
 
@@ -15,10 +15,12 @@ Widget customTextField({required IconData firstIcon,
     decoration: InputDecoration(
         prefixIcon: Icon(firstIcon, color: color,),
         suffixIcon: showSuffix ?  GestureDetector(
-              onTap: () {
+              // onTap: () {
                   // ref.read(showOrHide).state = !hideText;
 
-              },
+
+              // },
+          onTap: updateVisibility,
               child: hideText ? Icon(Icons.visibility_off_outlined, color: color,)
                   : Icon(Icons.visibility_outlined, color: color,)
           )
